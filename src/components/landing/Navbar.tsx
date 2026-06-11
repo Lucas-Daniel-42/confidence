@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Menu, X } from "lucide-react";
-import logo from "@/assets/logo.svg";
+import logo from "@/assets/logo_01.png";
 
 const links = [
   { href: "#inicio", label: "Início" },
@@ -31,7 +31,7 @@ export function Navbar() {
     >
       <div className="mx-auto max-w-7xl px-6 lg:px-10 h-20 flex items-center justify-between">
         <a href="#inicio" className="flex items-center gap-3 group">
-          <img src={logo} alt="Confidence" className="h-20 w-20 object-contain" />
+          <img src={logo} alt="Confidence" className="h-60 w-60 object-contain" />
         </a>
 
         <nav className="hidden lg:flex items-center gap-9">
