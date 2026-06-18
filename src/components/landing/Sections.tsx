@@ -26,7 +26,8 @@ import {
 import heroImg from "@/assets/hero-professional.jpg";
 import aboutImg from "@/assets/about.png";
 import methodologyImg from "@/assets/methodology.jpg";
-import founderImg from "@/assets/founder.jfif";
+import founderImg from "@/assets/founder.jpg";
+import logo from "@/assets/logo_01.png";
 
 /* ------------------------- shared building blocks ------------------------- */
 
@@ -90,7 +91,7 @@ export function Hero() {
         <div className="lg:col-span-6">
           <div className="inline-flex items-center gap-2 rounded-full border border-primary/15 bg-white/60 backdrop-blur px-4 py-1.5 text-xs tracking-[0.2em] uppercase text-primary">
             <Sparkles size={14} className="text-gold" />
-            Consultoria de Inglês para Alta Performance
+            Consultoria de Inglês cooporativo para Alta Performance
           </div>
 
           <h1 className="mt-8 font-display text-5xl md:text-6xl lg:text-7xl leading-[1.03] text-foreground text-balance">
@@ -103,8 +104,7 @@ export function Hero() {
           </h1>
 
           <p className="mt-6 text-lg text-muted-foreground max-w-xl leading-relaxed">
-            Desenvolva a capacidade de se comunicar em inglês com a mesma clareza, autoridade e
-            confiança que você já possui em sua língua nativa.
+            Desenvolva a capacidade de se comunicar em inglês com a mesma clareza, confiança e impacto que você já possui em português.
           </p>
 
           <div className="mt-10 flex flex-wrap gap-4">
@@ -121,20 +121,6 @@ export function Hero() {
             >
               Conhecer Metodologia
             </a>
-          </div>
-
-          <div className="mt-14 grid grid-cols-2 sm:grid-cols-4 gap-6">
-            {[
-              { k: "+14 anos", v: "de experiência" },
-              { k: "1:1", v: "Mentorias individuais" },
-              { k: "Própria", v: "Metodologia" },
-              { k: "Global", v: "Atendimento internacional" },
-            ].map((s) => (
-              <div key={s.k} className="border-l border-gold/40 pl-4">
-                <div className="font-display text-2xl text-primary">{s.k}</div>
-                <div className="text-xs text-muted-foreground mt-1">{s.v}</div>
-              </div>
-            ))}
           </div>
         </div>
 
@@ -173,13 +159,9 @@ export function Hero() {
 
 export function VideoSection() {
   return (
-    <section className="py-24 bg-background relative">
+    <section id="sobre" className="py-24 bg-background relative">
       <div className="mx-auto max-w-6xl px-6 lg:px-10">
-        <SectionHeader
-          eyebrow="Vídeo Institucional"
-          title="Conheça a Confidence"
-          subtitle="Entenda como transformamos o inglês em uma ferramenta de crescimento profissional, acadêmico e global."
-        />
+        <SectionHeader eyebrow="Sobre nós" title="Conheça a Confidence" />
 
         <div className="mt-14 relative group rounded-3xl overflow-hidden shadow-[var(--shadow-elegant)] aspect-video bg-deep">
           <div
@@ -221,14 +203,12 @@ const mvv = [
   {
     icon: Target,
     label: "Missão",
-    text:
-      "Capacitar nossos mentorados para que se comuniquem em inglês com a mesma autoridade, clareza e impacto que já possuem em sua língua nativa.",
+    text:"Capacitar nossos mentorados para que se comuniquem em inglês com a mesma clareza, confiança e impacto que já possuem em sua língua nativa.",
   },
   {
     icon: Compass,
     label: "Visão",
-    text:
-      "Ser a referência absoluta em soluções de inglês para propósitos específicos.",
+    text: "Ser a referência absoluta em soluções de inglês coorporativo para alta performance",
   },
   {
     icon: Award,
@@ -239,14 +219,12 @@ const mvv = [
 
 export function MissionVisionValues() {
   return (
-    <section id="sobre" className="py-24 bg-background relative">
+    <section id="#" className="py-24 bg-background relative">
       <div className="mx-auto max-w-7xl px-6 lg:px-10">
         <SectionHeader
-          eyebrow="Quem somos"
-          title="Princípios que orientam cada mentoria"
-          subtitle="Uma operação seleta, construída sobre clareza estratégica e excelência acadêmica."
-        />
-
+          eyebrow="Princípios"
+          title="Conheca os princípios que nos orientam"
+          />
         <div className="mt-16 grid md:grid-cols-3 gap-6">
           {mvv.map(({ icon: Icon, label, text }) => (
             <div
@@ -271,7 +249,7 @@ export function MissionVisionValues() {
 
 export function AboutSummary() {
   return (
-    <section className="py-24 bg-secondary/40 relative overflow-hidden">
+    <section className="py-24 bg-background relative overflow-hidden">
       <div className="mx-auto max-w-7xl px-6 lg:px-10 grid lg:grid-cols-2 gap-16 items-center">
         <div className="relative">
           <div className="rounded-3xl overflow-hidden shadow-[var(--shadow-elegant)]">
@@ -284,19 +262,9 @@ export function AboutSummary() {
               className="w-full h-[560px] object-cover"
             />
           </div>
-          <div className="absolute -bottom-6 -right-6 hidden md:block rounded-2xl bg-primary p-6 text-primary-foreground shadow-[var(--shadow-elegant)] max-w-[240px]">
-            <div className="font-display text-3xl">14+</div>
-            <div className="text-xs uppercase tracking-widest text-gold mt-1">Anos de experiência</div>
-            <p className="text-xs text-primary-foreground/80 mt-2">
-              Construindo soluções para profissionais de alta performance.
-            </p>
-          </div>
         </div>
 
         <div>
-          <div className="inline-flex items-center gap-2 text-xs tracking-[0.25em] uppercase text-primary">
-            <span className="h-px w-8 bg-gold" /> Quem Somos
-          </div>
           <h2 className="mt-5 font-display text-4xl md:text-5xl text-foreground text-balance">
             Uma consultoria — não uma escola.
           </h2>
@@ -315,13 +283,6 @@ export function AboutSummary() {
               cada mentorado.
             </p>
           </div>
-          <a
-            href="#fundador"
-            className="mt-8 inline-flex items-center gap-2 rounded-full bg-primary px-7 py-4 text-sm font-medium text-primary-foreground hover:shadow-[var(--shadow-elegant)] transition-all"
-          >
-            Conheça Nossa História
-            <ArrowRight size={16} />
-          </a>
         </div>
       </div>
     </section>
@@ -402,9 +363,9 @@ const solutions = [
     text: "Mentoria completa de inglês para alta performance, baseada em um modelo único e totalmente personalizado. Destinada a quem busca desenvolver fluência real a partir de objetivos específicos — seja no contexto corporativo, acadêmico ou de vida real.",
   },
   {
-    icon: GraduationCap,
-    title: "Test Prep",
-    text: "Preparação estratégica para exames e certificações de proficiência em inglês. Voltada a estudantes e profissionais que precisam de resultados objetivos, com foco em estrutura de prova, performance linguística e domínio das habilidades exigidas.",
+    icon: Briefcase,
+    title: "Corporate",
+    text: "Soluções corporativas de inglês aplicadas à realidade da empresa, com foco em comunicação estratégica, performance e resultados. Desenvolvidas sob medida para equipes e áreas específicas, alinhando idioma, contexto e objetivos do negócio.",
   },
   {
     icon: Globe2,
@@ -412,9 +373,9 @@ const solutions = [
     text: "Sessões de conversação guiadas e estratégicas, focadas em destravar a fala, ganhar fluidez e comunicar-se com mais naturalidade. Ideal para quem já possui base em inglês, mas precisa desenvolver confiança e espontaneidade ao falar.",
   },
   {
-    icon: Briefcase,
-    title: "Corporate",
-    text: "Soluções corporativas de inglês aplicadas à realidade da empresa, com foco em comunicação estratégica, performance e resultados. Desenvolvidas sob medida para equipes e áreas específicas, alinhando idioma, contexto e objetivos do negócio.",
+    icon: GraduationCap,
+    title: "Test Prep",
+    text: "Preparação estratégica para exames e certificações de proficiência em inglês. Voltada a estudantes e profissionais que precisam de resultados objetivos, com foco em estrutura de prova, performance linguística e domínio das habilidades exigidas.",
   },
 ];
 
@@ -610,7 +571,7 @@ export function Clients() {
         <SectionHeader
           eyebrow="Nossos Clientes"
           title="Profissionais e empresas que confiam na Confidence"
-          subtitle="Líderes, executivos e instituições que escolheram um inglês à altura de seus objetivos."
+          subtitle="Profissionais, líderes e executivos que escolheram um inglês à altura de seus objetivos."
         />
 
         <div className="mt-14 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
@@ -804,9 +765,7 @@ export function Footer() {
       <div className="mx-auto max-w-7xl px-6 lg:px-10 grid md:grid-cols-2 lg:grid-cols-4 gap-12">
         <div>
           <div className="flex items-center gap-3">
-            <div className="h-10 w-10 rounded-full bg-gold/10 grid place-items-center">
-              <Crown size={18} className="text-gold" />
-            </div>
+              <img src={logo} alt="Confidence" className=" h-20 w-20 object-contain" />
             <div>
               <div className="font-display text-lg text-background tracking-wide">CONFIDENCE</div>
               <div className="text-[10px] tracking-[0.25em] text-gold uppercase">English Solutions</div>

@@ -58,8 +58,8 @@ function Index() {
       <main>
         <Hero />
         <VideoSection />
-        <MissionVisionValues />
         <AboutSummary />
+        <MissionVisionValues />
         <Founder />
         <Solutions />
         <Methodology />
