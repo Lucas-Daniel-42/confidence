@@ -614,52 +614,52 @@ export function Clients() {
 
 const faqs = [
   {
-    q: "A Confidence é uma escola de inglês?",
-    a: "Não. Somos uma consultoria de inglês para propósitos específicos. Não entregamos cursos genéricos, mas soluções personalizadas para objetivos reais.",
+    q: "O que é a Confidence English Solutions",
+    a: "A Confidence é uma consultoria de inglês para propósitos específicos. Não somos uma escola tradicional nem um curso genérico. Somos uma mentoria individual, online, ao vivo e completamente personalizada, desenvolvida para quem quer construir fluência estratégica — seja no contexto profissional, acadêmico ou de vida pessoal. Aqui, o inglês não é ensinado de forma isolada. Ele é construído em torno do seu objetivo real, do seu ritmo e da sua realidade.",
   },
   {
-    q: "Para quem é o programa?",
-    a: "Profissionais, executivos, acadêmicos e pessoas com objetivos claros que precisam de inglês como ferramenta estratégica.",
+    q: "Para quem é a Confidence?",
+    a: "A Confidence foi pensada para adultos que levam o inglês a sério — e que querem um serviço à altura das suas ambições. Atendemos três perfis principais: Contexto profissional e corporativo: profissionais que precisam do inglês no trabalho — reuniões, apresentações, negociações, e-mails e interações com times internacionais. Contexto acadêmico: estudantes e profissionais que buscam preparação para exames de proficiência, intercâmbio, pós-graduação no exterior ou certificações internacionais. Contexto de vida e vida global: pessoas que querem se comunicar com mais liberdade — em viagens, em interações sociais internacionais ou simplesmente para expandir suas perspectivas de mundo. Se você tem um objetivo claro com o inglês, a Confidence tem uma solução para ele.",
   },
   {
-    q: "Como funcionam as mentorias?",
-    a: "São sessões individuais ao vivo, conduzidas com base em um plano de desenvolvimento desenhado especificamente para você.",
+    q: " O que diferencia a Confidence das outras escolas de inglês?",
+    a: "A Confidence não é uma escola tradicional. Enquanto cursos genéricos seguem roteiros prontos e turmas fixas, nós construímos o percurso junto com o mentorado — com base no seu contexto real, seus objetivos específicos e o seu ritmo de aprendizado. Cada jornada na Confidence é única. Nada de conteúdo de prateleira, nada de turmas, nada de material que não foi feito para você. O resultado é um inglês que realmente funciona para a sua vida — com propósito, clareza e impacto.",
   },
   {
-    q: "Qual o nível mínimo necessário?",
-    a: "Trabalhamos a partir do nível intermediário. Realizamos uma call diagnóstica para mapear seu ponto de partida.",
+    q: "Como funciona a mentoria na prática?",
+    a: "As sessões são individuais, ao vivo e 100% online — apenas você e o seu mentor, em horários fixos e exclusivos. Cada sessão é planejada com base nos seus objetivos e no seu momento atual. O conteúdo é construído para o seu contexto real — seja uma apresentação corporativa, uma redação acadêmica ou uma conversa fluente no exterior. Entre as sessões, o aprendizado continua por meio da Confidence Digital Platform, com vídeos curtos, microatividades e acompanhamento direto via WhatsApp.",
   },
   {
-    q: "Quanto tempo dura o programa?",
-    a: "A duração é definida pelo objetivo. Programas típicos vão de 3 a 12 meses.",
+    q: "Quanto tempo leva para desenvolver fluência?",
+    a: "Os primeiros resultados aparecem em poucas semanas — porque o aprendizado é direcionado ao seu objetivo desde o início. O percurso completo — da base à comunicação plena e estratégica — é planejado de forma individualizada, com metas de curto, médio e longo prazo e progresso mensurável a cada etapa. Não existe uma resposta única para essa pergunta, porque cada jornada é diferente. O que existe é um plano claro, construído especificamente para você.",
   },
   {
-    q: "Vocês preparam para certificações internacionais?",
-    a: "Sim. Preparamos para IELTS, TOEFL, Cambridge (FCE, CAE, CPE) e VERSANT.",
+    q: "Quem conduz as mentorias?",
+    a: "A Confidence é fundada e liderada por Jhonatan Reis — educador, gestor acadêmico e Cambridge Speaking Examiner para a Universidade de Cambridge no Brasil, com mais de 14 anos de experiência no ensino de inglês para adultos. Jhonatan combina rigor acadêmico, visão pedagógica contemporânea e aplicação prática, com formação em Letras, duas pós-graduações (Educação Bilíngue e Gestão para Educação Bilíngue) e certificações internacionais como CELTA, Cambridge CPE e Train the Trainer. Além de liderar a Confidence, Jhonatan atua diretamente como mentor — o que garante que os padrões de excelência pedagógica sejam preservados em cada etapa da jornada do aluno.",
   },
   {
-    q: "Existe material didático próprio?",
-    a: "Sim. Utilizamos plataforma e materiais exclusivos, complementados por recursos curados conforme seu contexto.",
+    q: "Qual é o material utilizado?",
+    a: "Todo o conteúdo é desenvolvido sob medida para o seu contexto e objetivos — nada de livros fixos ou apostilas genéricas. O material é hospedado na Confidence Digital Platform, com vídeos em formato de pílula, trilhas de aprendizado personalizadas, atividades práticas e recursos de IA para prática de fala e escuta. O material é vivo, dinâmico e adaptado à sua realidade — seja ela corporativa, acadêmica ou pessoal.",
   },
   {
-    q: "Os encontros são online ou presenciais?",
-    a: "Atendemos globalmente em formato online ao vivo. Modalidades híbridas são avaliadas conforme o caso.",
+    q: "Existe suporte fora das sessões?",
+    a: "Sim. O mentorado conta com suporte direto via WhatsApp, com atendimento 100% humano de segunda a sexta, além de feedbacks semanais estruturados em texto e áudio. Isso garante continuidade, consistência e segurança durante toda a jornada — não apenas dentro das sessões.",
   },
   {
-    q: "Como é feita a avaliação de progresso?",
-    a: "Acompanhamos KPIs linguísticos e de aplicação prática, com revisões periódicas do plano.",
+    q: "E se eu precisar faltar a uma sessão?",
+    a: "Sem problemas. A Confidence entende que a vida acontece. Em casos de ausência, o conteúdo da sessão estará disponível em formato de vídeo-resumo e atividades curtas na plataforma digital, garantindo que o aprendizado siga sem interrupções.",
   },
   {
-    q: "Posso pausar o programa?",
-    a: "Sim, dentro das regras contratuais. A flexibilidade é avaliada conforme o plano contratado.",
+    q: "Existe certificação ao final da mentoria?",
+    a: "Sim. Ao longo do percurso, cada mentorado recebe o Certificado Confidence, que atesta o nível alcançado e as habilidades desenvolvidas em cada módulo. Para quem busca uma certificação internacional reconhecida globalmente, a Confidence também oferece preparação para os principais exames de proficiência — como IELTS, TOEFL e Cambridge — além de acesso ao Certificado VERSANT PROFESSIONAL, chancelado pela Pearson e reconhecido por milhares de empresas e instituições ao redor do mundo.",
   },
   {
-    q: "Qual o investimento?",
-    a: "O investimento é apresentado após a call diagnóstica, pois reflete o escopo personalizado da solução.",
+    q: "Já tentei outros cursos e não funcionou. Por que a Confidence seria diferente?",
+    a: "Porque o que oferecemos não é um curso. A Confidence oferece mentoria individual e completamente personalizada para o seu propósito específico. O foco não está em ensinar inglês de forma genérica, mas em transformar sua capacidade de comunicação — com um plano construído para você, acompanhamento contínuo e resultados claros em cada etapa. Cursos genéricos não funcionaram porque não foram feitos para você. A Confidence foi. A fluência não é promessa. É consequência do método.",
   },
   {
-    q: "Como começo?",
-    a: "Agende uma call diagnóstica gratuita. Vamos entender seus objetivos e desenhar a melhor jornada.",
+    q: "Como posso começar?",
+    a: "De forma simples e direta: basta enviar uma mensagem para o WhatsApp da Confidence. O primeiro passo é uma call de diagnóstico gratuita — 30 minutos para entendermos o seu contexto, os seus objetivos e como a Confidence pode construir a sua jornada de forma personalizada. Sem compromisso. Apenas uma conversa para entender se faz sentido para você.",
   },
 ];
 
