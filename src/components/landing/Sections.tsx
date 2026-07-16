@@ -7,6 +7,7 @@ import {
   CheckCircle2,
   Compass,
   Crown,
+  FastForward, 
   GraduationCap,
   Globe2,
   Headphones,
@@ -279,8 +280,7 @@ export function AboutSummary() {
             </p>
             <p>
               Nosso diferencial é a <span className="text-foreground font-medium">personalização radical</span>.
-              Não entregamos cursos, mas soluções estratégicas desenhadas para os objetivos reais de
-              cada mentorado.
+              Desenvolvemos soluções estratégicas desenhadas para objetivos que exijam inglês de alto impacto.
             </p>
           </div>
         </div>
@@ -376,6 +376,11 @@ const solutions = [
     icon: GraduationCap,
     title: "Test Prep",
     text: "Preparação estratégica para exames e certificações de proficiência em inglês. Voltada a estudantes e profissionais que precisam de resultados objetivos, com foco em estrutura de prova, performance linguística e domínio das habilidades exigidas.",
+  },
+  {
+    icon: FastForward,
+    title: "Fast Track",
+    text: "Sessões de conversação guiadas e estratégicas, focadas em destravar a fala, ganhar fluidez e comunicar-se com mais naturalidade. Ideal para quem já possui base em inglês, mas precisa desenvolver confiança e espontaneidade ao falar.",
   },
 ];
 
@@ -746,7 +751,7 @@ export function FinalCTA() {
             <ArrowRight size={16} className="transition-transform group-hover:translate-x-1" />
           </a>
           <a
-            href="https://w.app/confidence"
+            href="https://wa.me/5511917704818"
             className="inline-flex items-center gap-2 rounded-full border border-background/20 bg-background/5 backdrop-blur px-8 py-4 text-sm font-medium text-background hover:bg-background/10 transition-all"
           >
             Falar no WhatsApp
@@ -760,6 +765,26 @@ export function FinalCTA() {
 /* --------------------------------- Footer -------------------------------- */
 
 export function Footer() {
+
+   const socialLinks = [
+    {
+      name: "Instagram",
+      href: "https://www.instagram.com/confidenceenglishsolutions/",
+    },
+    {
+      name: "LinkedIn",
+      href: "https://www.linkedin.com/company/confidenceenglishsolutions/?viewAsMember=true",
+    },
+    {
+      name: "YouTube",
+      href: "https://www.youtube.com/@JhonatanReis-w6h",
+    },
+    {
+      name: "WhatsApp",
+      href: "https://wa.me/5511917704818",
+    },
+  ];
+
   return (
     <footer className="bg-deep text-background/80 pt-16 pb-8 border-t border-background/10">
       <div className="mx-auto max-w-7xl px-6 lg:px-10 grid md:grid-cols-2 lg:grid-cols-4 gap-12">
@@ -772,7 +797,7 @@ export function Footer() {
             </div>
           </div>
           <p className="mt-6 text-sm leading-relaxed text-background/60">
-            Consultoria de inglês para profissionais e executivos de alta performance.
+            Consultoria de inglês cooporativo para profissionais e executivos de alta performance.
           </p>
         </div>
 
@@ -792,24 +817,32 @@ export function Footer() {
         <div>
           <div className="text-xs uppercase tracking-[0.25em] text-gold">Contato</div>
           <ul className="mt-5 space-y-3 text-sm text-background/70">
-            <li><a href="#">confidence.corporateenglish@gmail.com</a></li>
-            <li><a href="https://w.app/confidence">+55 (11) +55 11 91770-4818</a></li>
+            <li><a href="mailto:confidence.corporateenglish@gmail.com">confidence.corporateenglish@gmail.com</a></li>
+            <li><a href="https://wa.me/5511917704818">+55 (11) +55 11 91770-4818</a></li>
           </ul>
         </div>
 
         <div>
-          <div className="text-xs uppercase tracking-[0.25em] text-gold">Redes</div>
-          <ul className="mt-5 space-y-3 text-sm">
-            {["Instagram", "LinkedIn", "YouTube", "WhatsApp"].map((s) => (
-              <li key={s}>
-                <a href="#" className="hover:text-gold transition-colors">
-                  {s}
-                </a>
-              </li>
-            ))}
-          </ul>
-        </div>
-      </div>
+  <div className="text-xs uppercase tracking-[0.25em] text-gold">
+    Redes
+  </div>
+
+  <ul className="mt-5 space-y-3 text-sm">
+    {socialLinks.map((social) => (
+      <li key={social.name}>
+        <a
+          href={social.href}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:text-gold transition-colors"
+        >
+          {social.name}
+        </a>
+      </li>
+    ))}
+  </ul>
+</div>
+</div>
 
       <div className="mx-auto max-w-7xl px-6 lg:px-10 mt-14">
         <div className="h-px w-full bg-gradient-to-r from-transparent via-gold/40 to-transparent" />
