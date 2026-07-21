@@ -393,7 +393,7 @@ export function Solutions() {
           title="Soluções desenvolvidas para objetivos reais"
           subtitle="Cada jornada é desenhada de acordo com seu contexto profissional, acadêmico ou pessoal."
         />
-        <div className="mt-16 grid md:grid-cols-2 gap-6">
+        <div className="mt-16 grid md:grid-cols-2 gap-6 ">
           {solutions.map(({ icon: Icon, title, text }) => (
             <article
               key={title}
@@ -550,19 +550,19 @@ export function Differentials() {
 const logos = ["Banco Atlântico", "Vector Group", "Helix Capital", "Nordic Labs", "Veritas", "Auriga"];
 const testimonials = [
   {
-    name: "Mariana C.",
+    name: "Laís",
     role: "Diretora de Marketing",
     text:
-      "Em quatro meses, deixei de ler em inglês para liderar reuniões internacionais com confiança total.",
+      "As sessões da Confidence atenderam perfeitamente às minhas necessidades, e a cada encontro, eu percebia minha confiança ao falar aumentando. O que eu mais gostei nas aulas foi o fato de cada sessão ser cuidadosamente estruturada, permitindo que minhas habilidades de fala se desenvolvessem, até que eu conseguisse realizar cada tarefa com segurança e confiança.",
   },
   {
-    name: "Rafael M.",
+    name: "Ricardo",
     role: "Engenheiro Sênior",
     text:
-      "A personalização é absurda. Cada sessão é desenhada para o que eu realmente preciso entregar no trabalho.",
+      "Ainda assim, me sentia frustrado, pois as aulas eram muito genéricas e não focavam no que eu realmente precisava desenvolver. Desde o primeiro contato com a Confidence, percebi que seria diferente. As sessões foram personalizadas de acordo com minhas necessidades, especialmente em conversação e gramática, o que tornou o aprendizado muito mais eficaz.",
   },
   {
-    name: "Luísa P.",
+    name: "Lucas D.",
     role: "PhD Candidate",
     text:
       "A preparação para o IELTS foi cirúrgica. Resultado acima do necessário para Oxford.",
@@ -578,17 +578,6 @@ export function Clients() {
           title="Profissionais e empresas que confiam na Confidence"
           subtitle="Profissionais, líderes e executivos que escolheram um inglês à altura de seus objetivos."
         />
-
-        <div className="mt-14 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
-          {logos.map((l) => (
-            <div
-              key={l}
-              className="h-20 rounded-2xl bg-card border border-border grid place-items-center text-sm tracking-wide text-muted-foreground hover:text-primary hover:border-gold/50 transition-colors"
-            >
-              {l}
-            </div>
-          ))}
-        </div>
 
         <div className="mt-16 grid md:grid-cols-3 gap-6">
           {testimonials.map((t) => (
@@ -624,7 +613,7 @@ const faqs = [
   },
   {
     q: "Para quem é a Confidence?",
-    a: "A Confidence foi pensada para adultos que levam o inglês a sério — e que querem um serviço à altura das suas ambições. Atendemos três perfis principais: Contexto profissional e corporativo: profissionais que precisam do inglês no trabalho — reuniões, apresentações, negociações, e-mails e interações com times internacionais. Contexto acadêmico: estudantes e profissionais que buscam preparação para exames de proficiência, intercâmbio, pós-graduação no exterior ou certificações internacionais. Contexto de vida e vida global: pessoas que querem se comunicar com mais liberdade — em viagens, em interações sociais internacionais ou simplesmente para expandir suas perspectivas de mundo. Se você tem um objetivo claro com o inglês, a Confidence tem uma solução para ele.",
+    a: "A Confidence foi pensada para adultos que levam o inglês a sério e buscam um ensino à altura das suas ambições. Atendemos três perfis principais: contexto profissional e corporativo – para quem precisa do inglês no ambiente de trabalho; contexto acadêmico – para quem busca certificações, intercâmbios ou oportunidades internacionais; contexto de vida – para quem deseja se comunicar com mais liberdade em viagens, experiências e conexões ao redor do mundo. Se você tem um objetivo com o inglês, a Confidence tem a solução ideal para alcançá-lo.",
   },
   {
     q: " O que diferencia a Confidence das outras escolas de inglês?",

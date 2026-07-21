@@ -34,6 +34,11 @@ export const Route = createFileRoute("/")({
     ],
     links: [
       {
+        rel:"icon",
+        type:"image/png",
+        href:"./assets/logo_01"
+      },
+      {
         rel: "preconnect",
         href: "https://fonts.googleapis.com",
       },
